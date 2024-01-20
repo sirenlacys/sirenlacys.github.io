@@ -159,19 +159,28 @@ p {
     background-color: #555;
 }
 
-main {
-    padding: 1em;
-    text-align: center;
+.video-container {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.video-container {
-    max-width: 300px;
-    margin: 0 auto;
+.video-wrapper {
+    margin-bottom: 100px;
 }
 
 video {
     width: 100%;
     height: auto;
     display: block;
-    margin: 50px;
+}
+
+.video-title {
+    margin: 0;
+    font-weight: bold;
+}
+
+#searchInput {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
 }
